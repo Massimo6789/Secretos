@@ -29,3 +29,4 @@ def dato():
 def secreto():
     return f'<h1>{random.choice(secretos)}</h1><img src="https://static.guiainfantil.com/media/29838/reno-adivinanza.jpg" alt="Navidad 1"> <a href="/dato_random"> Ir A Pagina De Datos </a>'
 app.run(debug=True)
+print("hello world")
